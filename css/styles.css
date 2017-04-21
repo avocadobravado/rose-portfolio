@@ -1,4 +1,7 @@
 /* General */
+body {
+  color: #838689;
+}
 
 h2 {
   font-size: 42px;
@@ -10,9 +13,8 @@ p {
 }
 
 /* Navbar */
-
-.navbar-default {
-  background-color: #A8CABA;
+nav {
+  color: white;
 }
 
 .navbar {
@@ -20,16 +22,41 @@ p {
   padding-bottom: 2%;
 }
 
+.navbar-default {
+  background-color: #A8CABA;
+}
+
+  /* Changes nav-bar brand color */
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+
 a.navbar-brand {
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: .15em;
-  text-shadow: .2px .2px #000;
+  text-shadow: .4px .4px #788c82;
 }
 
 a.nav-link {
   font-size: 1em;
-  text-shadow: .2px .2px #000;
+  text-shadow: .5px .5px #788c82;
+}
+
+.nav.navbar-nav.navbar-right {
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #3c6d57;
+}
+
+.navbar-default .navbar-nav>li>a:visited {
+  color: #3c6d57;
 }
 
 /* Jumbotron */
@@ -107,6 +134,6 @@ h3.bg-h3 {
 
 ol {
   padding-left: 1%;
-  list-style-type: circle;
+  list-style-type: none;
   font-size: 1.3em;
 }
