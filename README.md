@@ -10,7 +10,7 @@ _This site showcases four projects I made my first week at Epicodus, it also pro
 
 ## Setup/Installation Requirements
 
--- ADD LINK 
+-- ADD LINK
 
 * _'git clone url`_
 * _Open index.html file in an internet browser such as Google Chrome_
@@ -28,6 +28,7 @@ _Reach out to me via email at rosesponseller@gmail.com with suggestions._
 * _HTML_
 * _CSS_
 * _Bootstrap_
+* _Font Awesome for icons_
 
 ### License
 
