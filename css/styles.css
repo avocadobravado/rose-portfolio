@@ -1,3 +1,19 @@
+.jumbotron {
+	margin-top: -3%;
+}
+
+.jumbotron h1 {
+  text-shadow: 2px 2px #fff;
+}
+
+.rosePortrait {
+  display: block;
+  margin: auto;
+  width: 300px;
+  border-radius: 100%;
+  border: solid 5px #000;
+}
+
 .glyphicon.glyphicon-sunglasses {
-    font-size: 1.5em;
+  font-size: 1em;
 }
