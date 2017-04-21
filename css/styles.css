@@ -23,7 +23,7 @@ nav {
 }
 
 .navbar-default {
-  background-color: #A8CABA;
+  background-color: #49274A;
 }
 
   /* Changes nav-bar brand color */
@@ -35,12 +35,12 @@ a.navbar-brand {
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: .15em;
-  text-shadow: .4px .4px #788c82;
+  text-shadow: .4px .4px #838689;
 }
 
 a.nav-link {
   font-size: 1em;
-  text-shadow: .5px .5px #788c82;
+  text-shadow: .5px .5px #838689;
 }
 
 .nav.navbar-nav.navbar-right {
@@ -52,11 +52,11 @@ a.nav-link {
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-  color: #3c6d57;
+  color: #94618E;
 }
 
 .navbar-default .navbar-nav>li>a:visited {
-  color: #3c6d57;
+  color: #94618E;
 }
 
 /* Jumbotron */
@@ -65,10 +65,18 @@ a.nav-link {
 	margin-top: -3%;
   margin-bottom: 0;
   padding: 5%;
+  background-color: #94618E; 
 }
 
 .jumbotron h1 {
-  text-shadow: 2px 2px #fff;
+  color: #fff;
+  text-shadow: 1px 1px #49274A;
+}
+
+.jumbotron p {
+  color: #fff;
+  text-shadow: .1px .1px #fafafa;
+  line-height: 1.4em;
 }
 
 .roseImg {
@@ -76,7 +84,7 @@ a.nav-link {
   margin: auto;
   width: 320px;
   border-radius: 100%;
-  border: solid 5px #000;
+  border: solid 5px #49274A;
 }
 
 /* Project Panel */
@@ -87,12 +95,22 @@ a.nav-link {
   padding: 0 5%;
 }
 
+.panel p {
+  color: #584e5f;
+}
+
 .panel h3 {
   text-align: center;
 }
 
-.secondary {
-  text-shadow: 1px 1px #c0c0c0;
+.panel h3 a {
+  color: #49274A;
+  text-decoration: none;
+}
+
+h2.secondary {
+  color: #94618E;
+  text-shadow: .3px .3px #49274A;
 }
 
 .projectImg {
@@ -100,14 +118,16 @@ a.nav-link {
   margin: auto;
   width: 80%;
   border-radius: 100%;
-  border: solid 5px #000;
+  border: solid 5px #94618E;
 }
 
 .techUsed {
+  color: #49274A;
   font-weight: bold;
 }
 
 .techDesc {
+  color: #94618E;
   font-style: italic;
 }
 
@@ -115,6 +135,11 @@ a.nav-link {
 
 h3.bg-h3 {
   padding-bottom: 6%;
+  color: #49274A;
+}
+
+h4.backgroundInfo {
+  color: red;
 }
 
 .backgroundImg {
