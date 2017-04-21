@@ -10,8 +10,8 @@ _This site showcases four projects I made my first week at Epicodus, it also pro
 
 ## Setup/Installation Requirements
 
-* _View on Github pages at [avocadobravado.github.io/rose-portfolio]_
-OR
+* _View on Github pages at [http://avocadobravado.github.io/rose-portfolio](http://avocadobravado.github.io/rose-portfolio)_
+OR⋅⋅
 * _`git clone https://github.com/avocadobravado/rose-portfolio`_
 * _Open index.html file in an internet browser such as Google Chrome_
 
