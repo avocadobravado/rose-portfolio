@@ -6,18 +6,19 @@
 
 ## Description
 
-_This site showcases four projects I made my first week at Epicodus, it also provides some additional information regarding my background._
+_This site showcases four projects I made my first week at Epicodus, it also provides some additional information regarding my background and interests._
 
 ## Setup/Installation Requirements
 
--- ADD LINK
-
-* _'git clone url`_
+* _View on Github pages at [avocadobravado.github.io/rose-portfolio]_
+OR
+* _`git clone https://github.com/avocadobravado/rose-portfolio`_
 * _Open index.html file in an internet browser such as Google Chrome_
 
 ## Known Bugs
 
-_Add later_
+* _There is white space between the nav and the jumbotron_
+* _Right side of navbar does not collapse into a hamburger menu_
 
 ## Support and contact details
 
