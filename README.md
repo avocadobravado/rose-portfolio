@@ -28,6 +28,7 @@ _Reach out to me via email at rosesponseller@gmail.com with suggestions._
 * _HTML_
 * _CSS_
 * _Bootstrap_
+* _Google Fonts_
 * _Font Awesome for icons_
 
 ### License
