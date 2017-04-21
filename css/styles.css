@@ -13,6 +13,17 @@ p {
 
 .navbar {
   margin-bottom: 0;
+  padding-bottom: 2%;
+}
+
+a.navbar-brand {
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+}
+
+a.nav-link {
+  font-size:
 }
 
 /* Jumbotron */
