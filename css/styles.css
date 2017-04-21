@@ -11,6 +11,10 @@ p {
 
 /* Navbar */
 
+.navbar-default {
+  background-color: #A8CABA;
+}
+
 .navbar {
   margin-bottom: 0;
   padding-bottom: 2%;
@@ -20,10 +24,12 @@ a.navbar-brand {
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: .15em;
+  text-shadow: .2px .2px #000;
 }
 
 a.nav-link {
-  font-size:
+  font-size: 1em;
+  text-shadow: .2px .2px #000;
 }
 
 /* Jumbotron */
@@ -100,6 +106,7 @@ h3.bg-h3 {
 }
 
 ol {
-  list-style-type: none;
+  padding-left: 1%;
+  list-style-type: circle;
   font-size: 1.3em;
 }
