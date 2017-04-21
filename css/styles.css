@@ -1,6 +1,7 @@
 /* General */
 body {
-  color: #838689;
+  color: #584e5f;
+  font-family: 'Raleway', sans-serif;
 }
 
 h2 {
@@ -29,6 +30,8 @@ nav {
   /* Changes nav-bar brand color */
 .navbar-default .navbar-brand {
   color: #fff;
+  font-size: 2em;
+  font-family: 'Raleway', sans-serif;
 }
 
 a.navbar-brand {
@@ -71,6 +74,7 @@ a.nav-link {
 .jumbotron h1 {
   color: #fff;
   text-shadow: 1px 1px #49274A;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 .jumbotron p {
@@ -109,8 +113,8 @@ a.nav-link {
 }
 
 h2.secondary {
-  color: #94618E;
-  text-shadow: .3px .3px #49274A;
+  color: #49274A;
+  text-shadow: .3px .3px #000;
 }
 
 .projectImg {
@@ -135,11 +139,13 @@ h2.secondary {
 
 h3.bg-h3 {
   padding-bottom: 6%;
-  color: #49274A;
+  color: #94618E;
+  font-size: 2.2em;
 }
 
 h4.backgroundInfo {
-  color: red;
+  color: #49274A;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 .backgroundImg {
@@ -155,6 +161,7 @@ h4.backgroundInfo {
   float: right;
   font-weight: bold;
   font-style: italic;
+  color: #94618E;
 }
 
 ol {
