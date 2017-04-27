@@ -25,9 +25,12 @@ nav {
 
 .navbar-default {
   background-color: #49274A;
+  border: none;
+  border: none;
 }
 
   /* Changes nav-bar brand color */
+
 .navbar-default .navbar-brand {
   color: #fff;
   font-size: 2em;
@@ -39,6 +42,10 @@ a.navbar-brand {
   text-transform: uppercase;
   letter-spacing: .15em;
   text-shadow: .4px .4px #838689;
+}
+
+.navbar-brand a:hover {
+  color: red;
 }
 
 a.nav-link {
@@ -59,7 +66,7 @@ a.nav-link {
 }
 
 .navbar-default .navbar-nav>li>a:visited {
-  color: #94618E;
+  color: #fff;
 }
 
 /* Jumbotron */
@@ -93,6 +100,27 @@ a.nav-link {
 
 /* Project Panel */
 
+h2 {
+  color: #49274A;
+  text-shadow: .3px .3px #000;
+}
+
+h2#weekOneLink {
+  cursor: pointer;
+}
+
+h2#weekOneLink:hover {
+    text-decoration: underline;
+}
+
+#weekOneProjects {
+  display: none;
+}
+
+#weekOneLink a:hover {
+  text-decoration: underline;
+}
+
 .panel {
   border: none;
   box-shadow: none;
@@ -110,11 +138,6 @@ a.nav-link {
 .panel h3 a {
   color: #49274A;
   text-decoration: none;
-}
-
-h2.secondary {
-  color: #49274A;
-  text-shadow: .3px .3px #000;
 }
 
 .projectImg {

@@ -5,6 +5,11 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Raleway" rel="stylesheet">
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
     <title>Rose Sponseller Portfolio</title>
   </head>
   <body>
@@ -30,7 +35,7 @@
         <div class="row">
           <div class="col-lg-8 col-md-6 col-sm-12">
             <h1>Hi, I'm Rose.</h1>
-            <p>I love to create, which is what brought me to web development. My professional background lies in technical support and graphic design, so I look forward to taking my skills to the next level at Epicodus. When I'm not designing or developing, I enjoy knitting, reading, cooking, eating bread, and gazing lovingly at my one-eyed at Izzy Goo.</p>
+            <p>I love to create, which is what brought me to web development. My professional background lies in technical support and graphic design, so I look forward to taking my skills to the next level at Epicodus. When I'm not designing or developing, I enjoy knitting, reading, cooking, eating bread, and gazing lovingly at my one-eyed cat Izzy Goo.</p>
           </div> <!-- Column close -->
           <div class="col-lg-4 col-md-6 col-sm-12">
             <img src="img/rose.jpg" alt="Rose Sponseller" class="roseImg">
@@ -40,9 +45,9 @@
     </div> <!-- Jumbotron close -->
     <!-- Projects Panel -->
     <div class="container">
-    <h2 class="secondary">Week One Projects</h2>
+    <h2 id="weekOneLink">Week One Projects &darr;</h2>
       <div class="row">
-        <div class="panel panel-default">
+        <div class="panel panel-default" id="weekOneProjects">
           <div class="panel-body">
             <div class="col-lg-6 col-md-6 col-sm-12">
               <img src="img/pet_shelter.png" alt="Furrever Home Pet Shelter" class="projectImg">
@@ -76,7 +81,7 @@
     </div> <!--Container close -->
     <!-- Background panel -->
     <div class="container">
-    <h2 class="secondary">My Background</h2>
+    <h2 class="third">My Background</h2>
       <div class="row">
         <div class="panel panel-default">
           <div class="panel-body">
@@ -90,7 +95,7 @@
                 <li>Assisted customers in a wide range of topics (website set up, domain management, HTML, CSS, RSS, SEO, typography, custom email, third party customizations)</li>
                 <li>Empowered customers with tools and expertise as they built confidence in using the product</li>
               </ol>
-              <p><span class="techUsed">Tools and technology used: </span><span class="techDesc">Squarespace, Chrome Developer Tools, HTML/CSS, CloudApp, Typinator, JIRA</span></p>
+              <p><span class="techUsed">Tools and technology used: </span><span class="techDesc">Squarespace, Chrome Developer Tools, HTML/CSS, CloudApp, JIRA</span></p>
               <hr>
               <h4 class="backgroundInfo">Freelance Graphic Design<span class="backgroundDate">2013-present</span></h4>
               <img src="img/freelance.jpg" alt="Freelance Graphic Designer" class="backgroundImg">
